@@ -1,0 +1,4 @@
+#!/bin/bash
+python -Bm compileall $PYFILE
+
+#Reference: https://stackoverflow.com/questions/16869024/what-is-pycache

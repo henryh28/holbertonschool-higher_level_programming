@@ -18,6 +18,7 @@ Also shown is that Python can be used as a scripting language in addition to bei
 | 9-easter_egg.py      | 1 of the 5 well known Python easter eggs       |
 | 10-check_cycle.c     | C function to check for circularly linked lists|
 | 100-write.py         | Output to stderr with 'write' from 'sys' module|
+| 101-compile          | Compiles python script file to current location|
 
 
 ## Author
