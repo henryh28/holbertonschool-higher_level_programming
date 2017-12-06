@@ -19,8 +19,7 @@ The below exercises teaches how Python handles flow control and how functions ar
 | 12-fizzbuzz.py            | Fizzbuss exercise                                        |
 | 13-insert_number.c        | Add new node containing number argument to a sorted list |
 | 100-print_tebahpla.py     | Print alphabet backwards in alternating case             |
-
-
+| 101-remove_char_at.py     | Concatenates string at nth index                         |
 
 ## Author
 Henry Hsu
