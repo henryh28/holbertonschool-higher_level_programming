@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 
-print(", ".join(["{:d}{:d}".format(i, j) for i in range(10) for j in range(10)]))
+print(", ".join(["{:02d}".format(i) for i in range(100)]))
