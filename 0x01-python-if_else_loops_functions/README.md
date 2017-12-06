@@ -18,6 +18,8 @@ The below exercises teaches how Python handles flow control and how functions ar
 | 11-pow.py                 | Return result of argument a to the power of argument b   |
 | 12-fizzbuzz.py            | Fizzbuss exercise                                        |
 | 13-insert_number.c        | Add new node containing number argument to a sorted list |
+| 100-print_tebahpla.py     | Print alphabet backwards in alternating case             |
+
 
 
 ## Author
