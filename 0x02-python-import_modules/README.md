@@ -10,6 +10,7 @@
 | 5-variable_load.py   | Import variable and print out its value         |
 | 100-my_calculator.py | Perform basic calculations using imported file  |
 | 101-easy_print.py    | Output to stdout without using print            |
+| 103-fast_alphabet.py | Use built in operations in Lib/string.py        |
 
 
 ## Author
