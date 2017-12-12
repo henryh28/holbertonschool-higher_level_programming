@@ -9,6 +9,7 @@ The following exercises are used to learn how to manipulate these sequential dat
 | 2-replace_in_list.py             | Replaces specified element in list         |
 | 3-print_reversed_list_integer.py | Print all integers of a list in reverse    |
 | 4-new_in_list.py                 | Replaces an elment in a list at index      |
+| 5-no_c.py                        | Remove 'c' & 'C' characters from string    |
 
 
 
