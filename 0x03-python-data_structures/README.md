@@ -8,6 +8,8 @@ The following exercises are used to learn how to manipulate these sequential dat
 | 1-element_at.py                  | Returns specified element from list        |
 | 2-replace_in_list.py             | Replaces specified element in list         |
 | 3-print_reversed_list_integer.py | Print all integers of a list in reverse    |
+| 4-new_in_list.py                 | Replaces an elment in a list at index      |
+
 
 
 ## Author
