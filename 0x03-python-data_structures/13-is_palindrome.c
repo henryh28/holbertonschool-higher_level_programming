@@ -46,6 +46,7 @@ int is_palindrome(listint_t **head)
 		reversed = reversed->next;
 		counter++;
 	}
+	free(array);
 
 	return (1);
 }
