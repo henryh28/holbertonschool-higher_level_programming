@@ -13,6 +13,7 @@ The following exercises are used to learn how to manipulate these sequential dat
 | 6-print_matrix_integer.py        | Print a matrix of integers                 |
 | 7-add_tuple.py                   | Return result of adding 2 tuples           |
 | 8-multiple_returns.py            | Return tuple of length & 1st char of string|
+| 9-max_integer.py                 | Return largest integer in a list           |
 
 
 
