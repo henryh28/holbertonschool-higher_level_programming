@@ -10,7 +10,7 @@ The following exercises are used to learn how to manipulate these sequential dat
 | 3-print_reversed_list_integer.py | Print all integers of a list in reverse    |
 | 4-new_in_list.py                 | Replaces an elment in a list at index      |
 | 5-no_c.py                        | Remove 'c' & 'C' characters from string    |
-
+| 6-print_matrix_integer.py        | Print a matrix of integers                 |
 
 
 ## Author
