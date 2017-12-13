@@ -15,6 +15,8 @@ The following exercises are used to learn how to manipulate these sequential dat
 | 8-multiple_returns.py            | Return tuple of length & 1st char of string    |
 | 9-max_integer.py                 | Return largest integer in a list               |
 | 10-divisible_by_2.py             | Determine if list elements are divisible by 2  |
+| 11-delete_at.py                  | Delete element at specified index in a list    |
+
 
 
 ## Author
