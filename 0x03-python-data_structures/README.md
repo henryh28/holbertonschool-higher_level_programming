@@ -12,6 +12,7 @@ The following exercises are used to learn how to manipulate these sequential dat
 | 5-no_c.py                        | Remove 'c' & 'C' characters from string    |
 | 6-print_matrix_integer.py        | Print a matrix of integers                 |
 | 7-add_tuple.py                   | Return result of adding 2 tuples           |
+| 8-multiple_returns.py            | Return tuple of length & 1st char of string|
 
 
 
