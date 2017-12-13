@@ -16,6 +16,7 @@ The following exercises are used to learn how to manipulate these sequential dat
 | 9-max_integer.py                 | Return largest integer in a list               |
 | 10-divisible_by_2.py             | Determine if list elements are divisible by 2  |
 | 11-delete_at.py                  | Delete element at specified index in a list    |
+| 12-switch.py                     | Switch the value of arguments 'a' and 'b'      | 
 
 
 
