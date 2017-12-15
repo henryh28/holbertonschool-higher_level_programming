@@ -18,6 +18,7 @@ Further work with Python data structures; this time focusing on Sets and Diction
 | 10-best_score.py            | Return a key with the biggest integer value                |
 | 11-mutiply_list_map.py      | Multiply all elements of a list by a number                |
 | 12-roman_to_int.py          | Convert roman numbers to an integer                        |
+| 101-square_matrix_map.py    | Square all integers of a matrix using map                  |
 | 102-complex_delete.py       | Delete a key with a specific value in a dictionary         |
 
 
