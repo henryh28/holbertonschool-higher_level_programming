@@ -4,12 +4,13 @@
 def safe_print_list(my_list=[], x=0):
     i = 0
 
-    for i in range(x):
+    while (i < x):
         try:
             print("{}".format(my_list[i]), end="")
         except:
             print()
             return (i)
+        i += 1
 
     print()
-    return (i+1)
+    return (i)
