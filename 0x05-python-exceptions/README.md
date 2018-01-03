@@ -12,7 +12,7 @@ Working with errors and exceptions in Python.
 | 5-raise_exception.py         | Raise a type exception                                                  |
 | 6-raise_exception_msg.py     | Raise a name exception with a message                                   |
 | 100-safe_print_integer_err.py| Safely print an integer and return True, return False if any errors     |
-
+| 101-safe_function.py         | Safely execute and return result of a function                          |
 
 
 
