@@ -11,6 +11,8 @@ Working with errors and exceptions in Python.
 | 4-list_division.py           | Returns a list that contains value of dividing a list by another list   |
 | 5-raise_exception.py         | Raise a type exception                                                  |
 | 6-raise_exception_msg.py     | Raise a name exception with a message                                   |
+| 100-safe_print_integer_err.py| Safely print an integer and return True, return False if any errors     |
+
 
 
 
