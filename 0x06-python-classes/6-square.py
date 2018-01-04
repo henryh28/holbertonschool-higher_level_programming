@@ -15,7 +15,7 @@ class Square:
 
     def my_print(self):
         """ Output object using '#' character """
-        if (self.__size == 0):
+        if (self.__size <= 0):
             print()
             return
 
