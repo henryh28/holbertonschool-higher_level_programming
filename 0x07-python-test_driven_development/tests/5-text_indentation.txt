@@ -3,17 +3,17 @@
 >>> text_indentation("""Are you cereal? Max, never Maxine. Ready for the mosh pit, shaka brah. Amazeballs! I pledge allegiance to Max and the power for which she stands...  :""")
 Are you cereal?
 <BLANKLINE>
- Max, never Maxine.
+Max, never Maxine.
 <BLANKLINE>
- Ready for the mosh pit, shaka brah.
+Ready for the mosh pit, shaka brah.
 <BLANKLINE>
- Amazeballs! I pledge allegiance to Max and the power for which she stands.
-<BLANKLINE>
-.
+Amazeballs! I pledge allegiance to Max and the power for which she stands.
 <BLANKLINE>
 .
 <BLANKLINE>
-  :
+.
+<BLANKLINE>
+:
 <BLANKLINE>
 
 >>> text_indentation(5)
@@ -25,3 +25,11 @@ TypeError: text must be a string
 >>> text_indentation(" ")
 <BLANKLINE>
 
+>>> text_indentation("Holberton. School? How are you:	John")
+Holberton.
+<BLANKLINE>
+School?
+<BLANKLINE>
+How are you:
+<BLANKLINE>
+John
