@@ -1,0 +1,27 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("""Are you cereal? Max, never Maxine. Ready for the mosh pit, shaka brah. Amazeballs! I pledge allegiance to Max and the power for which she stands...  :""")
+Are you cereal?
+<BLANKLINE>
+ Max, never Maxine.
+<BLANKLINE>
+ Ready for the mosh pit, shaka brah.
+<BLANKLINE>
+ Amazeballs! I pledge allegiance to Max and the power for which she stands.
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+  :
+<BLANKLINE>
+
+>>> text_indentation(5)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation("")
+
+>>> text_indentation(" ")
+<BLANKLINE>
+
