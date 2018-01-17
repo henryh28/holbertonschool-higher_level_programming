@@ -18,6 +18,8 @@ Working with inheritance in Python.
 | 9-rectangle.py          | Overwrites 'area' and '__str__' method of parent class                  |
 | 10-square.py            | Create new Square class that extends Rectangle class                    |
 | 11-square.py            | Overwrites '__str__' method of parent class                             |
+| 100-my_int.py           | Override and reverses the '==' and '!=' operator of an int-derived class|
+
 
 
 ## Author
