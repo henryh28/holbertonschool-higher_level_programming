@@ -20,6 +20,7 @@ Python data structers to and from JSON format.
 | 12-student.py           | Updated 'to_json' method to be able to return value for specific keys        |
 | 13-student.py           | Add 'reload_from_json' method to update attribute values from file           |
 | 14-pascal_triangle.py   | Returns a list of lists to represent a Pascal's triangle of size 'n'         |
+| 100-append_after.py     | Insert a new string after a line if a search string is present               |
 
 
 ## Author
