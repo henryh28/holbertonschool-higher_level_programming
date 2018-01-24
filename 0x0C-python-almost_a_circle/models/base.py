@@ -47,7 +47,7 @@ class Base:
 
         with open("{}.json".format(cls.__name__), "r", encoding="utf-8") as f:
             data = cls.from_json_string(f.read())
-            return ([cls.create(**obj) for obj in data] if data != [] else [])
+            return ([cls.create(**obj) for obj in data] if data else [])
 
 #--------------- <CLASS> Create object from values ---------------
     @classmethod
