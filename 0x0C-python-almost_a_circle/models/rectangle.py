@@ -68,7 +68,7 @@ class Rectangle(Base):
     def display(self):
         """ Displays current object """
         print("\n" * self.y, end="")
-        print ("\n".join("{}".format(self.x * " ") + "#" * self.width
+        print("\n".join("{}".format(self.x * " ") + "#" * self.width
                          for row in range(self.height)))
 
     def __str__(self):
