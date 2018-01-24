@@ -21,7 +21,6 @@ class Base:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
 
-#--------------- <STATIC> To and From JSON strings ---------------
     @staticmethod
     def to_json_string(list_dictionaries):
         """ Returns JSON representation of 'list_dictionaries'/self """
@@ -32,7 +31,6 @@ class Base:
         """ Reconstitute list of representation of objects from JSON """
         return json.loads(json_string) if json_string else []
 
-#--------------- <CLASS> Save and Load From Files ---------------
     @classmethod
     def save_to_file(cls, list_objs):
         """ Writes JSON representation of 'list_objs' to a file """
@@ -48,8 +46,8 @@ class Base:
         with open("{}.json".format(cls.__name__), "r", encoding="utf-8") as f:
             data = cls.from_json_string(f.read())
             return ([cls.create(**obj) for obj in data] if data else [])
+        return ([])
 
-#--------------- <CLASS> Create object from values ---------------
     @classmethod
     def create(cls, **dictionary):
         """ Instantiate object with supplied values """
@@ -58,7 +56,6 @@ class Base:
         obj.update(**dictionary)
         return (obj)
 
-#--------------- <CLASS> Save and Load From CSV Files ---------------
     @classmethod
     def save_to_file_csv(cls, list_objs):
         """ Write JSON representation of 'list_objs to a csv file """
