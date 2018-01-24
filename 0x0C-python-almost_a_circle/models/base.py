@@ -43,10 +43,13 @@ class Base:
     def load_from_file(cls):
         """ Instantiate objects from a file """
 
-        with open("{}.json".format(cls.__name__), "r", encoding="utf-8") as f:
-            data = cls.from_json_string(f.read())
-            return ([cls.create(**obj) for obj in data] if data else [])
-        return ([])
+        try:
+            with open("{}.json".format(cls.__name__), "r",
+                      encoding="utf-8") as f:
+                data = cls.from_json_string(f.read())
+                return ([cls.create(**obj) for obj in data] if data else [])
+        except FileNotFoundError:
+            return ([])
 
     @classmethod
     def create(cls, **dictionary):
