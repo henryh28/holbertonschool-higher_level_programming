@@ -21,6 +21,7 @@ Continued work with SQL queries
 | 14-my_genres.sql                | Lists all genres for show 'Dexter'                                      |
 | 15-comedy_only.sql              | Lists all comedy shows in database 'hbtn_0d_tvshows'                    |
 | 16-shows_by_genre.sql           | Lists all shows, genres linked to that show from DB 'hbtn_0d_tvshows'   |
+| 100-not_my_genres.sql           | Lists all genres not linked to the show Dexter                          |
 
 
 ## Author
