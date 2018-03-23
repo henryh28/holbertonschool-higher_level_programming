@@ -17,6 +17,3 @@ if __name__ == "__main__":
         print("{}: {}".format(entry.id, entry.name))
 
     section1_db.close()
-
-#Reference: https://stackoverflow.com/questions/33220844/
-# sqlalchemy-search-using-contains-is-too-sensitive

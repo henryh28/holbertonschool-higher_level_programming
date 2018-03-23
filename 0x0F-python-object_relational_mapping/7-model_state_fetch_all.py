@@ -16,5 +16,3 @@ if __name__ == "__main__":
         print("{}: {}".format(entry.id, entry.name))
 
     section1_db.close()
-
-#Reference: http://docs.sqlalchemy.org/en/latest/orm/session_api.html
