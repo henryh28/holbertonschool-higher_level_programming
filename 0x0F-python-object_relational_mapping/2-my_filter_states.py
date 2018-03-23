@@ -8,7 +8,7 @@ if __name__ == "__main__":
                          passwd=argv[2], db=argv[3])
 
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states ORDER BY id ASC")
+    cursor.execute("SELECT * FROM states ORDER BY id ASC".format(argv[4]))
 
     for state in cursor.fetchall():
         if state[1] == argv[4]:
