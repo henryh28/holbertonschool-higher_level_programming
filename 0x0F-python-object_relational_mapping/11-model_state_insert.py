@@ -15,7 +15,7 @@ if __name__ == "__main__":
     section1_db.add(State(name="Louisana"))
     section1_db.commit()
 
-    for result in section1_db.query(State.id).filter_by(name="Louisana"):
+    for result in section1_db.query(State.id).filter_by(name="Louisiana"):
         print(result)
 
     section1_db.close()
