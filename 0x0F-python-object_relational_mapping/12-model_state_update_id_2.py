@@ -17,6 +17,3 @@ if __name__ == "__main__":
 
     section1_db.commit()
     section1_db.close()
-
-#Reference: https://stackoverflow.com/questions/47735329/
-# updating-a-row-using-sqlalchemy-orm
