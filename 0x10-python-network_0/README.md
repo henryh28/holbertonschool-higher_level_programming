@@ -12,6 +12,7 @@ Access relational database data through ORM and Python
 | 5-post_params.sh                | Send a POST request to a URL argument and display the body of the response            |
 | 6-peak.py                       | Python file to find a peak in a list of unordered numbers                             |
 | 6-peak.txt                      | Big O complexity of 6-peak.py                                                         |
+| 100-status_code.sh              | Send a request to URL argument and display only the status code of the response       |
 
 
 ## Author
