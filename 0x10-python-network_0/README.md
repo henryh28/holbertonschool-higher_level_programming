@@ -14,6 +14,7 @@ Access relational database data through ORM and Python
 | 6-peak.txt                      | Big O complexity of 6-peak.py                                                         |
 | 100-status_code.sh              | Send a request to URL argument and display only the status code of the response       |
 | 101-post_json.sh                | send a JSON POST request to a URL argument and display the body of the response       |
+| 102-catch_me.sh                 | Makes a request to 0.0.0.0:5000/catch_me and cause it to response with "You got me!"  |
 
 
 ## Author
