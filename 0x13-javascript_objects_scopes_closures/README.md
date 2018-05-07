@@ -15,6 +15,9 @@ Further javascript work
 | 8-esrever.js                    | Returns reversed version of list argument                               |
 | 9-logme.js                      | Prints arguments using variables in different scopes                    |
 | 10-converter.js                 | Converts an argument from base 10 to another specified base             |
+| 100-map.js                      | Use the map function to return an array with updated values             |
+| 101-sorted.js                   | Computes a new dictionary based upon dictionary argument values         |
+| 102-concat.js                   | Concatenates the contents of 2 text files into 1 new file               |
 
 
 ## Author
