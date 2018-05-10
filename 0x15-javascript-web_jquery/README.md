@@ -14,7 +14,10 @@ Back to working with jQuery
 | 7-script.js           | Display result of API call to Star Wars API in DIV#character                      |
 | 8-script.js           | Append results of API call to Star Wars API in UL#list_movies as <li> elements    |
 | 9-script.js           | Display result of API call to yahooapis in DIV#sf_wind_speed                      |
-
+| 100-script.js         | Update the text color of 'header' tag to #FF0000 on document load                 |
+| 101-script.js         | Add, remove, and clear 'li' elements from unordered list on click to specific divs|
+| 102-script.js         | Fetch and prints wind speed of specified city to DIV#wind_speed on button click   |
+| 103-script.js         | Same as 102-script, but can trigger with keypress of Enter key                    |
 
 
 ## Author
