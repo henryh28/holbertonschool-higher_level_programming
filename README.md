@@ -1,3 +1,3 @@
 ## Higher level languages
 
-This folder contains works in higher level languages
+Python, Javascript, etc
