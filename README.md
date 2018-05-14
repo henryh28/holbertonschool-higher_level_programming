@@ -1,3 +1,3 @@
 ## High level languages
 
-Python, Javascript, etc
+Python, Javascript, etc.
